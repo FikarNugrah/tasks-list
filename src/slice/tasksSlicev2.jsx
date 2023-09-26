@@ -14,7 +14,7 @@ export const getTask = createAsyncThunk("task/getTask", async () => {
 });
 
 export const addTask = createAsyncThunk("task/addTask", async (newTask) => {
-  console.log(newTask);
+  // console.log(newTask);
   try {
     const resp = await axios.post(
       "https://650ba32cdfd73d1fab0a19b3.mockapi.io/task-list/v1/tasks",

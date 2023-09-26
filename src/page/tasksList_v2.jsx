@@ -101,7 +101,7 @@ export default function TasksList_v2() {
 
     // window.location.reload();
   }
-  console.log(tasks);
+  // console.log(tasks);
 
   function handleDelete(taskId) {
     dispatch(delateTask({ id: taskId }));
