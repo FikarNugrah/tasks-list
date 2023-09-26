@@ -141,7 +141,7 @@ export default function TasksList_v2() {
               </th>
               <th className="center">Added On</th>
               <th className="center">Complated On</th>
-              <th className="center">Delate</th>
+              <th className="center">Delete</th>
             </tr>
           </thead>
           <tbody className="tbody">
