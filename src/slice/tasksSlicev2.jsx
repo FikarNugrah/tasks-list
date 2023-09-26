@@ -40,7 +40,7 @@ export const updateTaskCompletion = createAsyncThunk(
           complated_on,
         }
       );
-      window.location.reload();
+      // window.location.reload();
       return resp.data;
     } catch (error) {
       console.error("Error updating task completion:", error);
@@ -58,7 +58,7 @@ export const updateTask = createAsyncThunk(
         `https://650ba32cdfd73d1fab0a19b3.mockapi.io/task-list/v1/tasks/${updatedData.id}`,
         updatedData
       );
-      window.location.reload();
+      // window.location.reload();
       return resp.data;
     } catch (error) {
       console.error("Error updating task:", error);
